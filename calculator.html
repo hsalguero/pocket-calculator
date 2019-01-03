@@ -2,12 +2,38 @@
 <html>
   <head>
   <title>Calculator Midterm</title>
+  <script type="text/javascript" src="js/problem-set-6.js"></script>
 </head>
 <link rel="stylesheet" href="calculator.css">
-  <body>
+  <body align="center">
     <h1>Calculator</h1>
     <h2>Helmer Salguero A/3-4</h2>
-    <table style="color:white" align="center">
-    </table>
+    <form name="case">
+      <input name="display" id="display" value="">
+
+        <input type="button" class="button" value="1" onclick="one()">
+        <input type="button" class="button" value="2" onclick="two()">
+        <input type="button" class="button" value="3" onclick="three()">
+        <input type="button" id="plus" 	class="button" 	value="+"  onclick="Plus()">
+
+        <input type="button" class="button" value="4" onclick="four()">
+        <input type="button" class="button" value="5" onclick="five()">
+        <input type="button" class="button" value="6" onclick="six()">
+        <input type="button" id="minus" 	class="button" 	value="-" onclick="Minus()" >
+
+        <input type="button" class="button" value="7" onclick="seven()">
+        <input type="button" class="button" value="8" onclick="eight()">
+        <input type="button" class="button" value="9" onclick="nine()">
+        <input type="button" id="divide" 	class="button" 	value="/" onclick="Divide()" >
+
+        <input type="button" class="button" value="0" onclick="zero()">
+        <input type="button" class="button" value="C" onclick="C()">
+
+
+    	<input type="button" class="button"	value="=" onclick="Equals()">
+        <input type="button" class="button" 	value="*" onclick="Multiply()">
+
+      </div>
+    </div>
   </body>
 </html>
