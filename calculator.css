@@ -1,15 +1,17 @@
 body {
   	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Flag_of_Zimbabwe.svg/2000px-Flag_of_Zimbabwe.svg.png");
 }
-
+.body {
+  margin-left: auto;
+  margin-right: auto;
+}
 .box {
-    background-color: #e06f6f;
-    height: 300px;
-    width: 250px;
-    border-radius: 10px;
-    position: relative;
-    top: 80px;
-    left: 40%;
+    background-image: url("https://thumbs.gfycat.com/AdolescentNeedyHyrax-small.gif");
+    width: 400px;
+    height: 280px;
+    border: 5px solid red;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
@@ -26,18 +28,11 @@ h2 {
   font-style:italic;
 }
 
-body {
-	line-height: 1;
-  width: 500px;
-  max-width: 500px;
-  margin: auto;
-}
-
 ul {
 	list-style: none;
 }
 #display {
-	width: 81%;
+	width: 100%;
 	height: 30px;
 	text-align: right;
 	font-size: 1.5rem;
@@ -45,13 +40,16 @@ ul {
 
 .button {
 	font-size: 2rem;
-	height: 55px;
-	width: 20%;
-	border-radius: 10px;
-	display: inline-block;
-	padding: 5px;
-  background-image:linear-gradient(green, yellow, red, black, red, yellow, green);
-  color: white;
+	height: 60px;
+	width: 24%;
+	border-radius: 25px;
+	padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image:linear-gradient(to bottom right, green, yellow, red);
+  color: black;
+
 }
 .marquee {
 width: 500px;
