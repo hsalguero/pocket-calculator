@@ -1,56 +1,95 @@
 body {
   	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Flag_of_Zimbabwe.svg/2000px-Flag_of_Zimbabwe.svg.png");
-}
-.body {
-  margin-left: auto;
-  margin-right: auto;
-}
-.box {
-    background-image: url("https://thumbs.gfycat.com/AdolescentNeedyHyrax-small.gif");
-    width: 400px;
-    height: 280px;
-    border: 5px solid red;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 500px;
+    margin: auto;
 }
 
 h1 {
-  font-family: Tahoma, Geneva, sans-serif;
+  font-family: stencil;
   text-align: center;
-  color:lightblue;
+  color:lightgreen;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  text-shadow:
+    3px 3px 0 #000,
+  -1px -1px 0 #000,
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 h2 {
-  font-family: Tahoma, Geneva, sans-serif;
+  font-family: stencil;
   text-align: center;
   font-size: 20px;
-  color:pink;
+  color:red;
   font-style:italic;
-}
-
-ul {
-	list-style: none;
-}
-#display {
-	width: 100%;
-	height: 30px;
-	text-align: right;
-	font-size: 1.5rem;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 .button {
-	font-size: 2rem;
-	height: 60px;
-	width: 24%;
-	border-radius: 25px;
-	padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-image:linear-gradient(to bottom right, green, yellow, red);
+  background-image: linear-gradient(to bottom right, red, yellow, green);
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 2px 5px black;
   color: black;
-
+  font-family: Roboto Sans, sans-serif;
+  font-size: 1.8em;
+  height: 11%;
+  margin: 2%;
+  padding: 1%;
+  text-align: center;
+  width: 20%;
 }
+.cButton {
+  background-image: linear-gradient(to bottom right, red, lightgreen, lightblue, purple, yellow);
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 2px 5px black;
+  color: black;
+  font-family: Roboto Sans, sans-serif;
+  font-size: 1.5em;
+  height: 11%;
+  margin: 2%;
+  padding: 1%;
+  text-align: center;
+  width: 20%;
+}
+#calculator {
+  background-image: url(https://thumbs.gfycat.com/AdolescentNeedyHyrax-small.gif);
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px black;
+  height: 600px;
+  margin: 0 auto;
+  width: 600px;
+}
+#display {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: black;
+  font-family: Roboto Sans, sans-serif;
+  font-size: 2.5em;
+  height: 40px;
+  margin: 40px auto 0;
+  padding: 10px;
+  text-align: right;
+  width: 250px;
+}
+#controls {
+  align-content: space-around;
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  height: 70%;
+  justify-content: center;
+  margin: 8% auto 0;
+  width: 100%;
+}
+
 .marquee {
 width: 500px;
 line-height: 50px;
