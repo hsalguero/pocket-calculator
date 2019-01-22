@@ -3,7 +3,17 @@ body {
     max-width: 500px;
     margin: auto;
 }
-
+.output {
+background-image: linear-gradient(to bottom right, green, red, green, red);
+display: block;
+height: 80px;
+width: 100%;
+border-radius:10px;
+border: 2px solid black;
+font-size: 60px;
+color: yellow;
+font-family: Monaco, Consolas, "Lucida Console", monospace;
+}
 h1 {
   font-family: stencil;
   text-align: center;
@@ -42,7 +52,9 @@ h2 {
   text-align: center;
   width: 20%;
 }
-.cButton {
+.button2 {
+  background-image: linear-gradient(to bottom right, red, yellow, green, blue, purple);
+  border: 1px solid black;
   background-image: linear-gradient(to bottom right, red, lightgreen, lightblue, purple, yellow);
   border: 1px solid black;
   border-radius: 10px;
@@ -55,39 +67,6 @@ h2 {
   padding: 1%;
   text-align: center;
   width: 20%;
-}
-#calculator {
-  background-image: url(https://thumbs.gfycat.com/AdolescentNeedyHyrax-small.gif);
-  border: 1px solid black;
-  border-radius: 15px;
-  box-shadow: 10px 10px 5px black;
-  height: 600px;
-  margin: 0 auto;
-  width: 600px;
-}
-#display {
-  background-color: white;
-  border: 1px solid black;
-  border-radius: 10px;
-  color: black;
-  font-family: Roboto Sans, sans-serif;
-  font-size: 2.5em;
-  height: 40px;
-  margin: 40px auto 0;
-  padding: 10px;
-  text-align: right;
-  width: 250px;
-}
-#controls {
-  align-content: space-around;
-  display: -ms-flex;
-  display: -webkit-flex;
-  display: flex;
-  flex-wrap: wrap;
-  height: 70%;
-  justify-content: center;
-  margin: 8% auto 0;
-  width: 100%;
 }
 
 .marquee {
